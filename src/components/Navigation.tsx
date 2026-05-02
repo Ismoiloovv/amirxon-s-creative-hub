@@ -4,6 +4,7 @@ const links = [
   { href: "#home", label: "Bosh sahifa" },
   { href: "#about", label: "Haqida" },
   { href: "#works", label: "Ijodiy ishlar" },
+  { href: "#skills", label: "Bilimlarim" },
   { href: "#contact", label: "Bog'lanish" },
 ];
 
