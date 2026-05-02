@@ -4,6 +4,7 @@ const links = [
   { href: "#home", label: "Bosh sahifa" },
   { href: "#about", label: "Haqida" },
   { href: "#works", label: "Ijodiy ishlar" },
+  { href: "#skills", label: "Bilimlarim" },
   { href: "#contact", label: "Bog'lanish" },
 ];
 
@@ -27,7 +28,7 @@ const Navigation = () => {
         <a href="#home" className="flex items-center gap-3 group">
           <div className="size-3 rounded-full bg-primary animate-pulse-glow" />
           <span className="font-mono text-sm font-bold tracking-widest uppercase text-foreground group-hover:text-primary transition-smooth">
-            Ismoilov.A
+            Ismoilov
           </span>
         </a>
 
