@@ -94,7 +94,7 @@ const Hero = () => {
               <div className="text-[9px] font-mono uppercase tracking-widest opacity-70 leading-none">
                 Location
               </div>
-              <div className="text-sm font-bold uppercase mt-1">Toshkent · UZ</div>
+              <div className="text-sm font-bold uppercase mt-1">Xorazm · UZ</div>
             </div>
 
             {/* Floating tag */}
