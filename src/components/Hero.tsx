@@ -56,11 +56,11 @@ const Hero = () => {
           {/* Stats strip */}
           <div className="grid grid-cols-3 gap-6 pt-12 border-t border-border max-w-lg">
             <div>
-              <div className="text-3xl md:text-4xl font-bold gradient-text">40+</div>
+              <div className="text-3xl md:text-4xl font-bold gradient-text">20+</div>
               <div className="text-xs uppercase tracking-widest text-muted-foreground mt-1">Loyihalar</div>
             </div>
             <div>
-              <div className="text-3xl md:text-4xl font-bold gradient-text">3+</div>
+              <div className="text-3xl md:text-4xl font-bold gradient-text">2+</div>
               <div className="text-xs uppercase tracking-widest text-muted-foreground mt-1">Yil tajriba</div>
             </div>
             <div>
