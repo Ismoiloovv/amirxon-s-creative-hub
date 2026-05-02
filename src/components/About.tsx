@@ -29,17 +29,19 @@ const About = () => {
             <div className="space-y-5 text-lg text-muted-foreground leading-relaxed font-light max-w-2xl">
               <p>
                 Salom! Men <span className="text-foreground font-medium">Ismoilov Amirxon</span> —
-                Toshkentdan zamonaviy veb-saytlar va raqamli mahsulotlar
-                yaratuvchi mustaqil dasturchi va dizaynerman.
+                <span className="text-foreground font-medium"> Xorazmdan</span> bo'lgan,
+                hozirda <span className="text-primary font-medium">IT Park</span>da tahsil olayotgan
+                yosh dasturchi va dizaynerman.
               </p>
               <p>
-                3 yildan ortiq tajriba davomida o'nlab brendlar va shaxsiy
-                mijozlar uchun ulardagi g'oyalarni hayotga tatbiq etganman.
-                Texnologiya va dizayn chegarasida yashayman.
+                2 yildan ortiq tajriba davomida 20 dan ortiq loyihalarni hayotga
+                tatbiq etganman — landing saytlar, dashboardlar, mobil ilovalar
+                dizayni va to'liq funksional veb-platformalar.
               </p>
               <p>
-                Mening yondashuvim — sifat, tezlik va estetika o'zaro
-                bog'liq bo'lishi kerak degan ishonchga asoslangan.
+                Texnologiya va dizayn chegarasida yashayman. Mening yondashuvim —
+                sifat, tezlik va estetika o'zaro bog'liq bo'lishi kerak degan
+                ishonchga asoslangan.
               </p>
             </div>
 
