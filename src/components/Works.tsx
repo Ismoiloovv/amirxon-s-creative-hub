@@ -7,12 +7,12 @@ import p4 from "@/assets/project-4.jpg";
 
 const projects = [
   {
-    title: "Analytics Dashboard",
-    category: "Web App · Dashboard",
-    desc: "Real-time ma'lumotlarni vizualizatsiya qiluvchi zamonaviy boshqaruv paneli.",
+    title: "UZ Market Shop",
+    category: "E-commerce · Online Do'kon",
+    desc: "O'zbekiston bozori uchun zamonaviy online do'kon platformasi — katalog, savatcha va buyurtma tizimi bilan.",
     img: p1,
-    tags: ["React", "TypeScript", "D3.js"],
-    link: "#",
+    tags: ["React", "TypeScript", "Tailwind"],
+    link: "https://github.com/Ismoiloovv/uz-market-shop",
   },
   {
     title: "E-commerce Platform",
