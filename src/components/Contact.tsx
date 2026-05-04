@@ -2,11 +2,11 @@ import { useState } from "react";
 import { Send, Phone, Mail, Github, Instagram, MessageCircle } from "lucide-react";
 import { toast } from "sonner";
 
-const TELEGRAM_USERNAME = "amirxon"; // o'zgartiring
-const PHONE = "+998 90 123 45 67";
-const EMAIL = "amirxon@example.com";
-const GITHUB = "amirxon";
-const INSTAGRAM = "amirxon";
+const TELEGRAM_USERNAME = "Ismoiloovv_dev";
+const PHONE = "+998 90 017 33 40";
+const EMAIL = "amirxon51317@gmail.com";
+const GITHUB = "Ismoiloovv";
+const INSTAGRAM = "ismoiloovv";
 
 const socials = [
   { icon: Send, label: "Telegram", value: `@${TELEGRAM_USERNAME}`, href: `https://t.me/${TELEGRAM_USERNAME}` },
