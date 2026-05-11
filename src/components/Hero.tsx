@@ -1,5 +1,4 @@
-import avatar from "@/assets/avatar.jpg";
-import { ArrowDown, Sparkles } from "lucide-react";
+import { ArrowDown, Sparkles, User } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -70,21 +69,19 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Right: Avatar */}
+        {/* Right: Avatar placeholder (Instagram-style default) */}
         <div className="lg:col-span-5 flex justify-center lg:justify-end animate-scale-in">
           <div className="relative size-72 md:size-96 lg:size-[440px]">
             {/* Rotating dashed ring */}
             <div className="absolute inset-0 rounded-full border-2 border-dashed border-primary/30 animate-spin-slow scale-110" />
             {/* Outer glow ring */}
             <div className="absolute inset-0 rounded-full border border-accent/20 scale-125" />
-            {/* Avatar */}
-            <div className="absolute inset-0 rounded-full overflow-hidden ring-2 ring-primary/40 animate-pulse-glow bg-card">
-              <img
-                src={avatar}
-                alt="Ismoilov Amirxon portrait"
-                width={800}
-                height={800}
-                className="w-full h-full object-cover"
+            {/* Default profile silhouette */}
+            <div className="absolute inset-0 rounded-full overflow-hidden ring-2 ring-primary/40 animate-pulse-glow bg-gradient-to-br from-muted to-card flex items-center justify-center">
+              <User
+                strokeWidth={1.25}
+                className="size-2/3 text-muted-foreground/60"
+                aria-label="Profile placeholder"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent pointer-events-none" />
             </div>
