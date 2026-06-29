@@ -4,10 +4,12 @@ import About from "@/components/About";
 import Works from "@/components/Works";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
+import AmbientBackground from "@/components/AmbientBackground";
 
 const Index = () => {
   return (
-    <main className="min-h-screen bg-background text-foreground overflow-x-hidden">
+    <main className="relative min-h-screen bg-background text-foreground overflow-x-hidden">
+      <AmbientBackground />
       <Navigation />
       <Hero />
       <About />

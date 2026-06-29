@@ -8,7 +8,8 @@ export default {
     container: { center: true, padding: "2rem", screens: { "2xl": "1400px" } },
     extend: {
       fontFamily: {
-        sans: ["'Space Grotesk'", "sans-serif"],
+        sans: ["'Plus Jakarta Sans'", "'Space Grotesk'", "sans-serif"],
+        display: ["'Space Grotesk'", "sans-serif"],
         mono: ["'JetBrains Mono'", "monospace"],
       },
       colors: {
@@ -55,6 +56,15 @@ export default {
           "0%, 100%": { transform: "translateY(0)" },
           "50%": { transform: "translateY(-10px)" },
         },
+        "blob-drift": {
+          "0%, 100%": { transform: "translate(0,0) scale(1)" },
+          "33%": { transform: "translate(40px,-30px) scale(1.1)" },
+          "66%": { transform: "translate(-30px,40px) scale(0.95)" },
+        },
+        "shimmer": {
+          "0%": { backgroundPosition: "-200% 0" },
+          "100%": { backgroundPosition: "200% 0" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -66,6 +76,8 @@ export default {
         "pulse-glow": "pulse-glow 3s ease-in-out infinite",
         "marquee": "marquee 30s linear infinite",
         "float": "float 4s ease-in-out infinite",
+        "blob-drift": "blob-drift 18s ease-in-out infinite",
+        "shimmer": "shimmer 3s linear infinite",
       },
     },
   },
