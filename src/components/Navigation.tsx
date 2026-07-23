@@ -5,6 +5,7 @@ const links = [
   { href: "#about", label: "Haqida" },
   { href: "#works", label: "Ijodiy ishlar" },
   { href: "#skills", label: "Bilimlarim" },
+  { href: "#chat", label: "Chat" },
   { href: "#contact", label: "Bog'lanish" },
 ];
 
