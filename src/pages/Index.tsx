@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Works from "@/components/Works";
 import Skills from "@/components/Skills";
+import Chat from "@/components/Chat";
 import Contact from "@/components/Contact";
 import AmbientBackground from "@/components/AmbientBackground";
 
@@ -15,6 +16,7 @@ const Index = () => {
       <About />
       <Works />
       <Skills />
+      <Chat />
       <Contact />
     </main>
   );
